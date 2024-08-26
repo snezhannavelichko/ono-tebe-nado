@@ -70,7 +70,7 @@ header {
 }
 
 .header__address {
-    width: 238px; 
+    width: 238px;
     margin-left: auto;
     color: #000;
     font-family: Raleway;
@@ -168,7 +168,7 @@ header {
 
 .bet-button {
     background-color: transparent;
-    border: 1px solid #FFF; 
+    border: 1px solid #FFF;
     padding: 12px 32px;
     color: #FFF;
     text-align: center;
@@ -259,7 +259,7 @@ header {
     line-height: 120%; /* 26.4px */
     text-decoration-line: underline;
     text-transform: uppercase;
-    width: 100%;    
+    width: 100%; 
     z-index: 2;
 }
 
