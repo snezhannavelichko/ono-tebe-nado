@@ -32,16 +32,30 @@ header {
 
 .header__link_active {
     border-bottom: 1px solid #000000;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
 }
 
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+    justify-self: center;
+
+}
+
 .header__logo-image {
     width: 148px;
     height: 105px;
-    flex-shrink: 0;
+   
 }
 
 address {
@@ -56,8 +70,15 @@ address {
 }
 
 .header__address {
-   width: 238px; 
-   margin-left: auto;
+    width: 238px; 
+    margin-left: auto;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
+    letter-spacing: 0.18px;
 } 
 
 .header__address a {
@@ -67,6 +88,11 @@ address {
 .cover {
     background-image: url(../images/cover.jpg);
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 165px 50px 50px;
+    z-index: 1;
 }
 
 .overlay {
@@ -76,7 +102,7 @@ address {
     height: 100%;
     width: 100%;
     position: absolute;
-    z-index: 0;
+    z-index: -1;
 }
 
 .cover__title {
@@ -86,21 +112,24 @@ address {
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 30px;
-    padding: 165px 50px 136px;
     z-index: 1;    
     position: relative;
+    margin-bottom: 136px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 .aligned-text {
     text-align: left;
     display: block;
-    line-height: 135%;
+    line-height: 115%;
 }
 
 .aligned-text_center {
     text-align: center;
     display: block;
-    line-height: 120%;
+    line-height: 100%;
 }
 
 .aligned-text_right {
@@ -120,7 +149,6 @@ address {
 .cover__description {
     display: flex;
     align-items: center;
-    padding: 0px 90px 50px 78px;
 }
 
 .cover__description-text {
@@ -133,9 +161,9 @@ address {
     line-height: 28px; /* 127.273% */
     text-transform: uppercase;
     word-spacing: 22px;
-    padding: 0px 40px 0px 0px;
     position: relative;
     z-index: 1;
+    margin-left: 28px;
 }
 
 .bet-button {
@@ -213,7 +241,6 @@ address {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .card_type_picture {
@@ -273,7 +300,6 @@ address {
     background: #000;
     border-radius: 300px;
     margin: 35px 47px auto;
-
  }
 
  .about__logo-image {
@@ -312,7 +338,7 @@ address {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 92px 24px;
+    padding: 0px 50px 88px;
 }
 
 .footer__address {
@@ -363,4 +389,3 @@ footer {
     width: 48px;
     height: 48px;
 }
-
