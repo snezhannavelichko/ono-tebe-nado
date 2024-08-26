@@ -7,7 +7,7 @@
 header {
     display: flex;
     align-items: center;
-    padding: 92px 50px 96px;  
+    padding: 92px 50px 96px;
 }
 
 .header__menu {
@@ -58,7 +58,7 @@ header {
    
 }
 
-address {
+.address {
     display: flex;
     width: 100%;
     color: #000;
@@ -310,7 +310,6 @@ address {
 
  .about__title {
     color: #000;
-    color: #000;
     font-family: Raleway;
     font-size: 40px;
     font-style: normal;
@@ -376,7 +375,7 @@ footer {
     border-bottom: 1px solid #000000;
 }
 
-.footer__social-list{
+.footer__social-list {
     display: flex;
     width: 100%;
     flex-direction: row;
